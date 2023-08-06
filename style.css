@@ -333,11 +333,6 @@
     position: relative;
 }
 
-.portpolio-items-two {
-    margin-top: 50px;
-    position: relative;
-}
-
 .portfolio-item {
     position: relative;
     display: inline-block;
@@ -350,23 +345,24 @@
 .portfolio-item-2 {
     position: absolute;
     top: 0;
-    right: 0; 
+    right: 0;
 }
 
 .portfolio-item-3 {
-    position: absolute;
+    display:inline-block
+    position: relative;
     top: 0;
-    left: 0; 
+    left: 0;
 }
 
 .portfolio-item-4 {
     position: absolute;
-    top: 0;
-    right: 0; 
+    top: 416px;
+    right: 0;
 }
 
 .portfolio-item__image {
-    width: 100%    
+    width: 100%
 }
 
 .portfolio-item__overlay {
@@ -382,6 +378,7 @@
 .portfolio-item__info {
     position: absolute;
     bottom: 44px;
+    top: 100px;
     left: 80px;
     color: white;
     visibility: hidden;
@@ -395,7 +392,7 @@
 .portfolio-item:hover .portfolio-item__overlay {
     visibility: visible;
     top: 15px;
-    left: 20px;
+    left: 25px;
 }
 
 .portfolio-item:hover .portfolio-item__info {
