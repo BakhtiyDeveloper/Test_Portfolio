@@ -204,7 +204,9 @@
 .statistics-number {
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1C44E4;
+    color: white;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%)
+    
 }
 
 .statistics-title {
