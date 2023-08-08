@@ -454,7 +454,7 @@
 
 /* Blog section */
 .blog {
-    padding: 100px;
+    padding: 40px;
 }
 
 .blog-items {
@@ -523,3 +523,12 @@
     color: #ed239f;
 }
 
+/*Partners section*/
+.partners {
+    padding-top: 100px;
+}
+
+.partner {
+    display: inline-block;
+    padding: 0 30px;
+}
